@@ -97,9 +97,9 @@ globs({
 }),
 ```
 
-## Contributing
+## License
 
-This package licensed under MIT.
+This package licensed under [MIT](#LICENSE).
 
 ## Related
 
