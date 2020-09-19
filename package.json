@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-globlin",
   "version": "0.1.2",
-  "description": "A Rollup plugin that provides file watching, copy, transform, repath and rename capabilities.",
+  "description": "Rollup plugin that provides file watching, copy, transform, repath and rename capabilities.",
   "author": "Nikolas Savvidis <nicos@gmx.com>",
   "license": "MIT",
   "main": "./package/index.js",
