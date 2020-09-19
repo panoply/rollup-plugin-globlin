@@ -6,7 +6,7 @@
 
 ₮ⱧɆ ₲ⱠØ฿Ⱡł₦ ₭ł₦₲
 
-<img align="center" src="https://github.com/panoply/rollup-plugin-globlin/blob/master/gif.gif?raw=true" width="90%" />
+<img align="center" src="https://github.com/panoply/rollup-plugin-globlin/blob/master/gif.gif?raw=true" width="350px" />
 
 </p>
 
