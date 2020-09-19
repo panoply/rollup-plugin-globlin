@@ -108,4 +108,4 @@ This package licensed under MIT.
 
 ## Author
 
-<small>🥛 [Νίκος Σαβίδης](mailto:nicos@gmx.com)</small> <img align="right" src="https://img.shields.io/badge/-@sisselsiv-1DA1F2?logo=twitter&logoColor=fff" />
+<small>🥛 [Νίκος Σαβίδης](mailto:nicos@gmx.com)</small> <a href="https://twitter.com/sisselsiv"><img align="right" src="https://img.shields.io/badge/-@sisselsiv-1DA1F2?logo=twitter&logoColor=fff" /></a>
