@@ -2,9 +2,9 @@
 
 <br>
 
-<p align="center">
+<p align="left">
 
-<img align="center" src="https://github.com/panoply/rollup-plugin-globlin/blob/master/gif.gif?raw=true" width="350px" />
+<img align="center" src="https://github.com/panoply/rollup-plugin-globlin/blob/master/gif.gif?raw=true" width="340px" />
 
 </p>
 
