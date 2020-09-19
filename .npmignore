@@ -3,3 +3,6 @@ versions
 gif.gif
 tsconfig.json
 rollup.config.js
+.eslintrc.json
+.prettierrc.js
+.prettierignore
