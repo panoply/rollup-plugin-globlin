@@ -1,0 +1,4 @@
+src/language/liquid.configuration.json
+test/**
+*.js
+*.mjs
