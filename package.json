@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-globlin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Rollup plugin that provides file watching, copy, transform, repath and rename capabilities.",
   "author": "Nikolas Savvidis <nicos@gmx.com>",
   "license": "MIT",
@@ -8,6 +8,11 @@
   "module": "package/index.es.js",
   "types": "index.d.ts",
   "private": false,
+  "keywords": [
+    "rollup-plugin",
+    "globs",
+    "file transforms"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/panoply/rollup-plugin-globlin"
