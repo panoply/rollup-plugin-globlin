@@ -8,20 +8,22 @@
     "lib": [
       "es2020"
     ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
     "module": "commonjs",
     "checkJs": true,
-    "allowJs": true,
-    "allowUmdGlobalAccess": true,
     "allowSyntheticDefaultImports": true,
+    "keyofStringsOnly": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "preserveSymlinks": true,
     "moduleResolution": "node",
+    "noStrictGenericChecks": true,
     "noEmit": true,
-    "noEmitOnError": false,
+    "suppressExcessPropertyErrors": true,
+    "noEmitOnError": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "baseUrl": ".",
-    "pretty": true
+    "pretty": true,
+    "baseUrl": "."
   }
 }
