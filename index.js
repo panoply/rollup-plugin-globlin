@@ -32,9 +32,15 @@ const transformer = (dest, transform) => async (base, file) => {
 
   const content = await readFile(file)
 
-  if (typeof transform === 'function') { return transform({ name: file, content, dest }) }
+  if (typeof transform === 'function') {
+
+    log(chalk`{dim - Transformed:) {cyan ${file}}`)
+
+    return transform({ name: file, content, dest })
+  }
 
   if (typeof transform === 'object') {
+
     if (typeof transform[base] === 'string') {
       if (transform[base] !== base) return transform[base]
     }
@@ -46,6 +52,7 @@ const transformer = (dest, transform) => async (base, file) => {
 
     if (typeof transform[item] === 'string') return transform[item]
     if (typeof transform[item] === 'function') {
+      log(chalk`{dim - Transformed:) {cyan ${file}}`)
       return transform[item]({ content, dest, name: file })
     }
 

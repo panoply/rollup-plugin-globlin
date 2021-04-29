@@ -24,7 +24,7 @@ pnpm i rollup-plugin-globlin --save-dev
 
 ## Usage
 
-```js
+```ts
 import globs from "rollup-plugin-globlin";
 
 export default {
@@ -38,7 +38,7 @@ export default {
       globs: ["dir/**/*.json", "assets/*.svg"],
       dest: "dest",
       clean: true,
-      transform: Object | function,
+      transform: object | function,
     }),
   ],
 };

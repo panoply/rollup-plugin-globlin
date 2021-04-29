@@ -23,8 +23,7 @@ export default {
       preferConst: true
     }),
     terser({
-      ecma: 6
-      , warnings: 'verbose'
+      warnings: 'verbose'
       , compress: { passes: 2 }
     })
   ]

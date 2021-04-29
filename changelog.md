@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.1.4 | 29/04/2021
+
+- Update shareable config, remove dev deps
+- Fix declaration for `clean`
+- Added a transform log for some additional clarity
+
 ### 0.1.3 | 14/03/2021
 
 - Updated dependencies

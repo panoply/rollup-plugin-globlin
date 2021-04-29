@@ -69,7 +69,7 @@ interface GlobsOptions {
    *
    * @default true
    */
-  readonly clean?: string;
+  readonly clean?: boolean;
 
   /**
    * A function that allows for transforming of glob content.
